@@ -11,6 +11,7 @@ public class ChaiBao {
         InputStream inputStream = urlConnection.getInputStream();
         int len = 0;
         byte[] bytes = new byte[1024];
+        System.out.println("合并分支");
         while ((len = inputStream.read(bytes))!=-1){
             System.out.println(new String(bytes,0,len));
         }
