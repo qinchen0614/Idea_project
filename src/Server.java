@@ -16,7 +16,7 @@ public class Server {
             sop(line);
             bw.println(line);
         }
-        pw.println("发送成功");
+        pw.println("发送成功12345");
     }
 
     public static void sop (Object obj){
